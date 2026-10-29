@@ -11,6 +11,7 @@
 #include <iostream>
 using namespace std;
 
+
 int main() {
 	
 	int values[10];
@@ -21,4 +22,9 @@ int main() {
 		cout << values[i] << " ";
 	}
 
+	cout << endl << "Even indices:        ";
+	for (int i = 0; i < 10; i++) {
+		cout << values[i] << " ";
+		i++;
+	}
 }
