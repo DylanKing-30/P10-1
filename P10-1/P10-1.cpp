@@ -34,4 +34,9 @@ int main() {
 			cout << values[i] << " ";
 		}
 	}
+
+	cout << endl << "Reversed order:      ";
+	for (int i = 9; i >= 0; i--) {
+		cout << values[i] << " ";
+	}
 }
