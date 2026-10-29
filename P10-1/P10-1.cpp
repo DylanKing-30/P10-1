@@ -39,4 +39,6 @@ int main() {
 	for (int i = 9; i >= 0; i--) {
 		cout << values[i] << " ";
 	}
+
+	cout << endl << "First and last:      " << values[0] << " " << values[9];
 }
